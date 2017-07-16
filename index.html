@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Image Test</title>
+    <style>
+        .fish {
+            width: 150px;
+            height: 165px;
+            background-image: url(./110801-map-icons.png);
+            background-position: -1030px 255px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Image Map (Click First Image)</h1>
+    <img src="./110801-map-icons.png" alt="" usemap="#Map" />
+    <map name="Map" >
+        <area  href="https://image.flaticon.com/sprites/share/packs/110801-map-icons.png" shape="rect" coords="35,43,169,143" />
+    </map>
+    <hr/>
+    <h1>Image Sprites</h1>
+    <div class="fish">
+    </div>
+</body>
+
+</html>
